@@ -4,7 +4,6 @@ class NgxEditorComponent {
     constructor() {
         this.template = '';
         this.storagePrefix = 'gjs-';
-        this.storagePrefixsss = 'gjs-';
     }
     setup(customConfig) {
         const config = {
@@ -19,7 +18,7 @@ class NgxEditorComponent {
         });
     }
     static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "16.0.2", ngImport: i0, type: NgxEditorComponent, deps: [], target: i0.ɵɵFactoryTarget.Component }); }
-    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.0.2", type: NgxEditorComponent, selector: "ng-component", inputs: { template: "template", storagePrefix: "storagePrefix", storagePrefixsss: "storagePrefixsss"}, ngImport: i0, template: '', isInline: true }); }
+    static { this.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "16.0.2", type: NgxEditorComponent, selector: "ng-component", inputs: { template: "template", storagePrefix: "storagePrefix" }, ngImport: i0, template: '', isInline: true }); }
 }
 export { NgxEditorComponent };
 i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "16.0.2", ngImport: i0, type: NgxEditorComponent, decorators: [{
